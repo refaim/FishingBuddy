@@ -256,7 +256,6 @@ function FishingLocationsFrame_MoveButtonText(i, what)
    local textfield = getglobal("FishingLocations"..i.."Text");
    textfield:SetPoint("LEFT", relativeTo, "RIGHT", 2, 0);
    textfield = getglobal("FishingLocations"..i.."HighlightText");
-   textfield:SetPoint("LEFT", relativeTo, "RIGHT", 2, 0);
 end
 
 FishingBuddy.Locations.Update = function(forced)
