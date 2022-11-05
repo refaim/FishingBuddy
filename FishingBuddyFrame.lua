@@ -116,6 +116,7 @@ function FishingBuddyFrame_OnEvent(event)
 	 end
       end
       ToggleFishingBuddyFrame("FishingLocationsFrame");
+      ToggleFishingBuddyFrame("FishingLocationsFrame");
    end
 end
 
